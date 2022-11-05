@@ -5,7 +5,7 @@ import { navItems } from "../constants";
 export default function NavBar() {
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar component="nav">
+      <AppBar component="nav" position="static">
         <Toolbar>
           <Typography
             variant="h6"
