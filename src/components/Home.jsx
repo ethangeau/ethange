@@ -2,6 +2,9 @@ import React from "react";
 import { Grid, Typography, Avatar } from "@mui/material";
 import avatar from "../static/images/avatar.jpeg";
 
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 export default function Home() {
   return (
     <div>
@@ -12,6 +15,23 @@ export default function Home() {
             src={avatar}
             sx={{ width: 150, height: 150 }}
           />
+          <div style={{ padding: "20px" }}>
+            <a
+              href="https://github.com/yebinge"
+              target="_blank"
+              rel="noreferrer"
+              style={{ paddingRight: "20px" }}
+            >
+              <GitHubIcon fontSize="large" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ethan-g-795aa0217/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon fontSize="large" color="primary" />
+            </a>
+          </div>
           <Typography variant="h4" gutterBottom sx={{ mt: 3 }}>
             A brief introduction of myself
           </Typography>
@@ -38,5 +58,3 @@ export default function Home() {
     </div>
   );
 }
-
-// src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png"
