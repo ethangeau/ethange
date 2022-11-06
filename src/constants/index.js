@@ -1,6 +1,7 @@
 export const navItems = ["Home", "Experience", "Portfolio", "Testimonial"];
 export const projects = [
   {
+    id: 1,
     title: "Local Restaurants & Hotels Discovery",
     imageUrl: "",
     techStacks: ["React", "Google Map API"],
@@ -9,6 +10,7 @@ export const projects = [
     website: "https://yebinge.github.io/local-food-shelter/",
   },
   {
+    id: 2,
     title: "Melbourne Moments Sharing Board",
     imageUrl: "",
     techStacks: ["React", "Redux", "Express", "MongoDB"],
