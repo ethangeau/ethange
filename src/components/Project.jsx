@@ -1,13 +1,13 @@
 import React from "react";
 import {
   Card,
-  CardHeader,
   CardMedia,
   CardContent,
   CardActions,
   Typography,
   Button,
   Chip,
+  Link,
 } from "@mui/material";
 
 export default function Project({ project }) {
@@ -15,10 +15,21 @@ export default function Project({ project }) {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardHeader title={title} />
+      <Link href="#">
+        <Typography variant="h6" align="center">
+          {title}
+        </Typography>
+      </Link>
       <CardMedia component="img" height="194" image={imageUrl} alt={title} />
       {techStacks.map((item) => (
-        <Chip key={item} size="small" label={item} />
+        <Chip
+          key={item}
+          size="small"
+          label={item}
+          color="primary"
+          variant="outlined"
+          sx={{ mx: 1 }}
+        />
       ))}
       <CardContent>
         <Typography variant="body2" color="text.secondary">
