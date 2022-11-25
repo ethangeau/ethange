@@ -5,6 +5,7 @@ export const experiences = [
     id: 1,
     title: "IT officer",
     company: "Strive Student Health Initiative Inc",
+    timeRanges: "Oct 2022 - Present",
     location: "Melbourne, Australia",
     description: [
       "Development and maintenance of official websites using WordPress",
@@ -14,6 +15,7 @@ export const experiences = [
     id: 2,
     title: "Engineering Intern",
     company: "Data Standards Body",
+    timeRanges: "Jul 2022 - Oct 2022",
     location: "Melbourne, Australia",
     description: [
       "Implement test cases to validate APIs against the Consumer Data Standards",
