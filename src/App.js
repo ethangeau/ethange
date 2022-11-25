@@ -2,7 +2,7 @@ import React from "react";
 import {
   NavBar,
   Home,
-  Experience,
+  Experiences,
   Portfolio,
   ContactMe,
   Footer,
@@ -14,7 +14,7 @@ export default function App() {
     <>
       <NavBar />
       <Home />
-      <Experience />
+      <Experiences />
       <Portfolio />
       <ContactMe />
       <Footer />
