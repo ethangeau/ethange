@@ -1,5 +1,26 @@
 // export const navItems = ["Home", "Experience", "Portfolio", "Testimonial"];
 export const navItems = ["About", "Experience", "Portfolio"];
+export const experiences = [
+  {
+    id: 1,
+    title: "IT officer",
+    company: "Strive Student Health Initiative Inc",
+    location: "Melbourne, Australia",
+    description: [
+      "Development and maintenance of official websites using WordPress",
+    ],
+  },
+  {
+    id: 2,
+    title: "Engineering Intern",
+    company: "Data Standards Body",
+    location: "Melbourne, Australia",
+    description: [
+      "Implement test cases to validate APIs against the Consumer Data Standards",
+      "Develop web application using JavaScript and React",
+    ],
+  },
+];
 export const projects = [
   {
     id: 1,
