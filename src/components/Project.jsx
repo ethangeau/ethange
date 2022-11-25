@@ -7,7 +7,6 @@ import {
   Typography,
   Button,
   Chip,
-  Link,
 } from "@mui/material";
 
 export default function Project({ project }) {
@@ -15,12 +14,16 @@ export default function Project({ project }) {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <Link href="#">
-        <Typography variant="body1" gutterBottom align="center">
-          {title}
-        </Typography>
-      </Link>
-      <CardMedia component="img" height="194" image={imageUrl} alt={title} />
+      <Typography variant="body1" gutterBottom align="center" sx={{ mt: 1 }}>
+        {title}
+      </Typography>
+      <CardMedia
+        component="img"
+        height="194"
+        image={imageUrl}
+        alt={title}
+        sx={{ mb: 1 }}
+      />
       {techStacks.map((item) => (
         <Chip
           key={item}

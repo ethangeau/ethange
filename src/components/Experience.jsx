@@ -28,8 +28,8 @@ export default function Experience(props) {
           <Typography variant="h6" gutterBottom sx={{ mt: 2 }}>
             {`${company}, ${location}`}
           </Typography>
-          {description.map((item) => (
-            <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
+          {description.map((item, idx) => (
+            <Typography key={idx} variant="body1" gutterBottom sx={{ mt: 2 }}>
               <CircleIcon sx={{ fontSize: "12px", mx: 1 }} />
               {item}
             </Typography>
