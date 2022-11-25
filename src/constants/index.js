@@ -27,7 +27,7 @@ export const projects = [
   {
     id: 1,
     title: "Restaurants and Hotels Discovery",
-    imageUrl: "../static/images/foodShelter.png",
+    imageUrl: require("../static/images/foodShelter.png"),
     techStacks: ["React", "Google Map API"],
     description:
       "A web application that allows users to search for restaurants and hotels in their local area.",
@@ -36,7 +36,7 @@ export const projects = [
   {
     id: 2,
     title: "Melbourne Moments Sharing Board",
-    imageUrl: "../static/images/melMoment.png",
+    imageUrl: require("../static/images/melMoment.png"),
     techStacks: ["React", "Redux", "Express", "MongoDB"],
     description:
       "A web application that allows users to share their moments in Melbourne.",
