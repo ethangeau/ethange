@@ -26,7 +26,7 @@ export const experiences = [
 export const projects = [
   {
     id: 1,
-    title: "Local Restaurants & Hotels Discovery",
+    title: "Restaurants and Hotels Discovery",
     imageUrl: "",
     techStacks: ["React", "Google Map API"],
     description:

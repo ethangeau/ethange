@@ -16,7 +16,7 @@ export default function Project({ project }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <Link href="#">
-        <Typography variant="h6" align="center">
+        <Typography variant="body1" gutterBottom align="center">
           {title}
         </Typography>
       </Link>
