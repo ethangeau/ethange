@@ -1,5 +1,5 @@
 // export const navItems = ["Home", "Experience", "Portfolio", "Testimonial"];
-export const navItems = ["About", "Experience", "Portfolio"];
+export const navItems = ["About", "Skills", "Experience", "Portfolio"];
 export const experiences = [
   {
     id: 1,
