@@ -8,7 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 export default function Home() {
   return (
     <Grid container>
-      <Grid item align="center">
+      <Grid item align="center" id="about">
         <Avatar
           alt="Ethan Ge"
           src={avatar}
@@ -51,6 +51,7 @@ export default function Home() {
       <Grid item xs={12}>
         <hr />
         <Typography
+          id="skills"
           variant="h4"
           gutterBottom
           sx={{ ml: 5, mt: 12, color: "#0014FF" }}

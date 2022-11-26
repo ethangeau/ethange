@@ -8,6 +8,7 @@ export default function Portfolio() {
     <>
       <hr style={{ marginTop: 100 }} />
       <Typography
+        id="portfolio"
         variant="h4"
         gutterBottom
         sx={{ ml: 5, mt: 12, color: "#0014FF" }}

@@ -8,6 +8,7 @@ export default function Experiences() {
     <>
       <hr style={{ marginTop: 100 }} />
       <Typography
+        id="experience"
         variant="h4"
         gutterBottom
         sx={{ ml: 5, mt: 12, color: "#0014FF" }}

@@ -16,13 +16,19 @@ export default function NavBar() {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
+              <Button
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                sx={{ color: "#fff" }}
+              >
                 {item}
               </Button>
             ))}
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            <Button sx={{ color: "#fff", pl: "40px" }}>Contact me</Button>
+            <Button href="#contact-me" sx={{ color: "#fff", pl: "40px" }}>
+              Contact me
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>
