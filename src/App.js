@@ -10,11 +10,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="px-10 md:px-20 lg:px-40 xl:px-60 2xl:px-80">
+    <div className="mx-10 md:mx-20 lg:mx-40 xl:mx-60 2xl:mx-80">
       <NavBar />
       <About />
-      <Experience />
       <Portfolio />
+      <Experience />
       <Skills />
       <ContactMe />
       <Footer />
