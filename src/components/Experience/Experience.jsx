@@ -4,8 +4,8 @@ import ExperienceItem from "./ExperienceItem";
 
 const Experience = () => {
   return (
-    <div id="experience" className=" mt-10">
-      <h1 className="text-3xl pt-4">Experience</h1>
+    <div id="experience" className=" mt-20">
+      <h1 className="text-3xl pt-4 font-serif">Experience</h1>
       <div>
         {experienceItem.map((item) => (
           <ExperienceItem
