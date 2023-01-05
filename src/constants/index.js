@@ -28,3 +28,26 @@ export const experienceItem = [
     ],
   },
 ];
+
+export const portfolioItem = [
+  {
+    id: 1,
+    title: "Unimelb Talent Pool",
+    imageUrl: require("../static/images/melfoodie.png"),
+    techStacks: ["React", "Redux", "Express", "MongoDB", "Node"],
+    description:
+      "The premier destination for employers looking to hire top talent from the University of Melbourne. Our website features a diverse pool of talented students and recent graduates across a range of fields and industries.",
+    website: "https://github.com/ethangeau/unimelb-talent-pool",
+    sourceCode: "https://github.com/ethangeau/unimelb-talent-pool",
+  },
+  {
+    id: 2,
+    title: "Melbourne Foodie",
+    imageUrl: require("../static/images/melfoodie.png"),
+    techStacks: ["React", "Google Map API", "OpenWeather API"],
+    description:
+      "Discover Melbourne's top restaurants, cafes, and bars with Melbourne Foodie. Our website offers ratings and reviews to help you find the perfect spot. Plus, the hourly weather forecast is displayed for you due to the changeable weather of Melbourne!",
+    website: "https://github.com/ethangeau/melfoodie",
+    sourceCode: "https://github.com/ethangeau/melfoodie",
+  },
+];
