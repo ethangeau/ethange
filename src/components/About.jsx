@@ -5,16 +5,18 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const About = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl px-4 py-2 font-semibold md:px-6 md:py-3 lg:px-8 lg:py-4">
-        Hey, I am <span className=" text-blue-600">Ethan Ge</span>
+    <div className="text-center mt-20">
+      <h1 className="text-4xl px-4 py-2 font-semibold md:px-6 lg:px-8 font-mono">
+        Hey, I am <span className=" text-blue-800">Ethan Ge</span>
       </h1>
-      <h2 className="text-2xl px-4 py-2 font-semibold md:px-6 md:py-3 lg:px-8 lg:py-4">
-        Looking for graduate or junior opportunities for software engineer
-      </h2>
-      <p className=" text-lg tracking-wider leading-7 px-4 py-2 md:px-8 md:py-3 lg:px-12 lg:py-4">
-        Final semester Master of Information Technology degree at the University
-        of Melbourne while also working as IT officer at{" "}
+      <p className=" text-lg tracking-wider leading-8 px-4 pt-12 pb-2 md:px-12 lg:px-32 font-light">
+        Motivated and diligent final semester Master of IT student at the
+        University of Melbourne, demonstrated by excellent academic achievements
+        and multiple awards.
+      </p>
+      <p className=" text-lg tracking-wider leading-8 px-4 py-2 md:px-12 lg:px-32 font-light">
+        Strong communication, teamwork and professional skills, evidenced by
+        current work at{" "}
         <Link
           href="https://strivehealth.org.au/"
           target="_blank"
@@ -22,7 +24,7 @@ const About = () => {
         >
           Strive Student Health Initiative
         </Link>
-        . Completed a four-month internship at{" "}
+        , and a previous internship at{" "}
         <Link
           href="https://www.directory.gov.au/portfolios/treasury/data-standards-body"
           target="_blank"
@@ -30,24 +32,31 @@ const About = () => {
         >
           Data Standards Body
         </Link>
-        . Proficient in web development using MERN stack and cloud computing
-        platforms, demonstrated by AWS Certified Cloud Practitioner.
+        .
       </p>
-      <Link
-        href="https://github.com/ethangeau"
-        target="_blank"
-        color="inherit"
-        sx={{ px: 2 }}
-      >
-        <GitHubIcon fontSize="large" />
-      </Link>
+      <p className=" text-lg tracking-wider leading-8 px-4 py-2 md:px-12 lg:px-32 font-light">
+        Proficient in web development using MERN stack and cloud computing
+        platforms, shown by completing several web applications, and obtaining
+        AWS Certified Cloud Practitioner.
+      </p>
+      <p className="text-lg px-4 py-8 md:px-6 lg:px-8 font-normal">
+        Looking for graduate or junior opportunities for software engineer
+      </p>
       <Link
         href="https://www.linkedin.com/in/ethange/"
         target="_blank"
         color="inherit"
-        sx={{ px: 2 }}
+        sx={{ p: 2 }}
       >
         <LinkedInIcon fontSize="large" color="primary" />
+      </Link>
+      <Link
+        href="https://github.com/ethangeau"
+        target="_blank"
+        color="inherit"
+        sx={{ p: 2 }}
+      >
+        <GitHubIcon fontSize="large" />
       </Link>
     </div>
   );
