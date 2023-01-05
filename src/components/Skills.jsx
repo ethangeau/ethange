@@ -21,7 +21,7 @@ import {
 const Skills = () => {
   return (
     <div id="skills" className="mt-20">
-      <h1 className="text-3xl pt-4">Skills</h1>
+      <h1 className="text-3xl pt-4 font-serif">Skills</h1>
       <div className="flex flex-col py-10">
         <div className="flex flex-wrap justify-evenly py-10">
           <SiJavascript size={40} color="#E5D14B" />

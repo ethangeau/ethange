@@ -3,7 +3,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div id="contact" className="mt-20">
-      <h1 className="text-3xl py-4">Contact</h1>
+      <h1 className="text-3xl py-4 font-serif">Contact</h1>
       <p className="text-xl tracking-wider leading-10 px-4 py-4 md:px-12 md:py-3 lg:px-20 lg:py-4">
         {" "}
         If you are looking for a talented software engineer, please{" "}
