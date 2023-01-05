@@ -15,7 +15,7 @@ const PortfolioItem = ({ project }) => {
     project;
 
   return (
-    <Card elevation={2} sx={{ maxWidth: 350, borderRadius: "15px" }}>
+    <Card elevation={3} sx={{ maxWidth: 350, borderRadius: "15px", mb: 2 }}>
       <Link href={website} target="_blank" underline="hover">
         <Typography
           variant="subtitle1"
