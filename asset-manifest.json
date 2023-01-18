@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ethange/static/css/main.f21ec4b1.css",
+    "main.js": "/ethange/static/js/main.c3372f1d.js",
+    "static/media/melfoodie.png": "/ethange/static/media/melfoodie.a0ca9e68a412738f2ece.png",
+    "index.html": "/ethange/index.html",
+    "main.f21ec4b1.css.map": "/ethange/static/css/main.f21ec4b1.css.map",
+    "main.c3372f1d.js.map": "/ethange/static/js/main.c3372f1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f21ec4b1.css",
+    "static/js/main.c3372f1d.js"
+  ]
+}
