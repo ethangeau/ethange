@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ethange/static/css/main.f21ec4b1.css",
-    "main.js": "/ethange/static/js/main.51f0aee2.js",
+    "main.js": "/ethange/static/js/main.66527648.js",
     "static/media/melfoodie.png": "/ethange/static/media/melfoodie.ceb5b0760763d71dad2d.png",
     "static/media/unimelbtalentpool.png": "/ethange/static/media/unimelbtalentpool.8669b73d8b3937c21a5b.png",
     "index.html": "/ethange/index.html",
     "main.f21ec4b1.css.map": "/ethange/static/css/main.f21ec4b1.css.map",
-    "main.51f0aee2.js.map": "/ethange/static/js/main.51f0aee2.js.map"
+    "main.66527648.js.map": "/ethange/static/js/main.66527648.js.map"
   },
   "entrypoints": [
     "static/css/main.f21ec4b1.css",
-    "static/js/main.51f0aee2.js"
+    "static/js/main.66527648.js"
   ]
 }
