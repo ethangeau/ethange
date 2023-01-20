@@ -33,11 +33,11 @@ export const portfolioItem = [
   {
     id: 1,
     title: "Unimelb Talent Pool",
-    imageUrl: require("../static/images/melfoodie.png"),
+    imageUrl: require("../static/images/unimelbtalentpool.png"),
     techStacks: ["React", "Redux", "Express", "MongoDB", "Node"],
     description:
       "The premier destination for employers looking to hire top talent from the University of Melbourne. Our website features a diverse pool of talented students and recent graduates across a range of fields and industries.",
-    website: "https://github.com/ethangeau/unimelb-talent-pool",
+    website: "http://unimelbtalentpool.australiaeast.cloudapp.azure.com",
     sourceCode: "https://github.com/ethangeau/unimelb-talent-pool",
   },
   {
@@ -47,7 +47,7 @@ export const portfolioItem = [
     techStacks: ["React", "Google Map API", "OpenWeather API"],
     description:
       "Discover Melbourne's top restaurants, cafes, and bars with Melbourne Foodie. Our website offers ratings and reviews to help you find the perfect spot. Plus, the hourly weather forecast is displayed for you due to the changeable weather of Melbourne!",
-    website: "https://github.com/ethangeau/melfoodie",
+    website: "http://ec2-3-25-201-182.ap-southeast-2.compute.amazonaws.com",
     sourceCode: "https://github.com/ethangeau/melfoodie",
   },
 ];
