@@ -8,7 +8,7 @@ To ensure easy and accessible hosting, the website is deployed using Github Page
 
 The technologies used in this project include React, Tailwind CSS, Node and Github Pages, these technologies allow for a fast, efficient and visually appealing website.
 
-## Setup:
+## Setup
 
 - run `npm i` and `npm start` if running locally
 - run `npm run deploy` if hosting with Github Pages, more details about Github Pages Deployment are available at [this link](https://github.com/gitname/react-gh-pages)
