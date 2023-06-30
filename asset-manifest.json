@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/ethange/static/css/main.f21ec4b1.css",
-    "main.js": "/ethange/static/js/main.66527648.js",
+    "main.css": "/ethange/static/css/main.e9326e01.css",
+    "main.js": "/ethange/static/js/main.23e2c44f.js",
+    "static/media/java.png": "/ethange/static/media/java.d804610707c8ebbcd1e0.png",
     "static/media/melfoodie.png": "/ethange/static/media/melfoodie.ceb5b0760763d71dad2d.png",
+    "static/media/hackathon.png": "/ethange/static/media/hackathon.b631a747f2170d3d35a8.png",
+    "static/media/cloud.png": "/ethange/static/media/cloud.38bf9d7977c0879f1137.png",
     "static/media/unimelbtalentpool.png": "/ethange/static/media/unimelbtalentpool.8669b73d8b3937c21a5b.png",
     "index.html": "/ethange/index.html",
-    "main.f21ec4b1.css.map": "/ethange/static/css/main.f21ec4b1.css.map",
-    "main.66527648.js.map": "/ethange/static/js/main.66527648.js.map"
+    "main.e9326e01.css.map": "/ethange/static/css/main.e9326e01.css.map",
+    "main.23e2c44f.js.map": "/ethange/static/js/main.23e2c44f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21ec4b1.css",
-    "static/js/main.66527648.js"
+    "static/css/main.e9326e01.css",
+    "static/js/main.23e2c44f.js"
   ]
 }
