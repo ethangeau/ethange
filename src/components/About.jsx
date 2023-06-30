@@ -5,7 +5,13 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const About = () => {
   return (
-    <Slide direction="up" in={true} mountOnEnter unmountOnExit>
+    <Slide
+      direction="right"
+      in={true}
+      mountOnEnter
+      unmountOnExit
+      timeout={1000}
+    >
       <div className="text-center mt-20">
         <h1 className="text-4xl px-4 py-2 font-semibold md:px-6 lg:px-8 font-mono">
           Hey, I am <span className=" text-blue-800">Ethan Ge</span>

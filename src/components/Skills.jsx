@@ -21,7 +21,7 @@ import {
 
 const Skills = () => {
   return (
-    <Slide direction="up" in={true} mountOnEnter unmountOnExit>
+    <Slide direction="up" in={true} mountOnEnter unmountOnExit timeout={1000}>
       <div id="skills" className="mt-20">
         <h1 className="text-3xl pt-4 font-serif">Skills</h1>
         <div className="flex flex-col py-10">

@@ -5,7 +5,7 @@ import PortfolioItem from "./PortfolioItem";
 
 const Portfolio = () => {
   return (
-    <Slide direction="up" in={true} mountOnEnter unmountOnExit>
+    <Slide direction="up" in={true} mountOnEnter unmountOnExit timeout={1000}>
       <div id="portfolio" className="mt-20">
         <h1 className="text-3xl pt-4 font-serif">Portfolio</h1>
         <h3 className="text-lg text-center px-4 py-6 leading-8 tracking-wide md:px-24 font-light">
