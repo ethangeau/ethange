@@ -58,7 +58,7 @@ export const portfolioItem = [
     techStacks: ["React", "Redux", "Express", "MongoDB", "Node"],
     description:
       "The premier destination for employers looking to hire top talent from the University of Melbourne. Our website features a diverse pool of talented students and recent graduates across a range of fields and industries.",
-    website: "http://unimelbtalentpool.australiaeast.cloudapp.azure.com",
+    website: "http://ec2-3-25-201-182.ap-southeast-2.compute.amazonaws.com/",
     sourceCode: "https://github.com/ethangeau/unimelb-talent-pool",
   },
   {
