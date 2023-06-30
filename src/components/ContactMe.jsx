@@ -21,7 +21,7 @@ const ContactMe = () => {
             {" "}
             If you are looking for a talented software engineer, please{" "}
             <a
-              href="mailto: yebing@student.unimelb.edu.au"
+              href="mailto: ethange71@gmail.com"
               target="_blank"
               className=" hover:underline text-blue-800"
             >
