@@ -21,38 +21,21 @@ const About = () => {
           <h1 className="text-4xl px-4 py-2 font-semibold md:px-6 lg:px-8 font-mono">
             Hey, I am <span className=" text-blue-800">Ethan Ge</span>
           </h1>
-          <p className=" text-lg tracking-wider leading-8 px-4 pt-12 pb-2 md:px-12 lg:px-32 font-light">
-            Motivated and diligent final semester Master of IT student at the
-            University of Melbourne, demonstrated by excellent academic
-            achievements and multiple awards.
+          <p className=" text-xl tracking-wider leading-10 px-4 pt-12 pb-2 md:px-12 lg:px-32 font-light">
+            Recently graduated Master of IT degree at University of Melbourne
+            with specialization in AI, while also working as a part-time
+            software engineer.
           </p>
-          <p className=" text-lg tracking-wider leading-8 px-4 py-2 md:px-12 lg:px-32 font-light">
-            Strong communication, teamwork and professional skills, evidenced by
-            current work at{" "}
-            <Link
-              href="https://strivehealth.org.au/"
-              target="_blank"
-              color="inherit"
-            >
-              Strive Student Health Initiative
-            </Link>
-            , and a previous internship at{" "}
-            <Link
-              href="https://www.directory.gov.au/portfolios/treasury/data-standards-body"
-              target="_blank"
-              color="inherit"
-            >
-              Data Standards Body
-            </Link>
-            .
+          <p className=" text-xl tracking-wider leading-10 px-4 py-2 md:px-12 lg:px-32 font-light">
+            Passionate about software engineering, AI and cloud computing,
+            demonstrated by multiple software projects experience and two AWS
+            certificates.
           </p>
-          <p className=" text-lg tracking-wider leading-8 px-4 py-2 md:px-12 lg:px-32 font-light">
-            Proficient in web development using MERN stack and cloud computing
-            platforms, shown by completing several web applications, and
-            obtaining AWS Certified Cloud Practitioner.
-          </p>
-          <p className="text-lg px-4 py-8 md:px-6 lg:px-8 font-normal">
-            Looking for graduate or junior opportunities for software engineer
+          <p className="text-2xl px-4 py-8 md:px-6 lg:px-8 font-normal">
+            Seeking opportunities for{" "}
+            <span className=" text-blue-800">
+              <b>software engineer</b>
+            </span>
           </p>
           <Link
             href="https://www.linkedin.com/in/ethange/"
