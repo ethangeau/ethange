@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ethange/static/css/main.e9326e01.css",
-    "main.js": "/ethange/static/js/main.23e2c44f.js",
+    "main.js": "/ethange/static/js/main.8de2c671.js",
     "static/media/java.png": "/ethange/static/media/java.d804610707c8ebbcd1e0.png",
     "static/media/melfoodie.png": "/ethange/static/media/melfoodie.ceb5b0760763d71dad2d.png",
     "static/media/hackathon.png": "/ethange/static/media/hackathon.b631a747f2170d3d35a8.png",
@@ -9,10 +9,10 @@
     "static/media/unimelbtalentpool.png": "/ethange/static/media/unimelbtalentpool.8669b73d8b3937c21a5b.png",
     "index.html": "/ethange/index.html",
     "main.e9326e01.css.map": "/ethange/static/css/main.e9326e01.css.map",
-    "main.23e2c44f.js.map": "/ethange/static/js/main.23e2c44f.js.map"
+    "main.8de2c671.js.map": "/ethange/static/js/main.8de2c671.js.map"
   },
   "entrypoints": [
     "static/css/main.e9326e01.css",
-    "static/js/main.23e2c44f.js"
+    "static/js/main.8de2c671.js"
   ]
 }
