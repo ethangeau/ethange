@@ -50,14 +50,16 @@ const PortfolioItem = ({ project }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button
-          size="small"
-          color="primary"
-          onClick={() => window.open(website, "_blank")}
-          sx={{ textTransform: "none" }}
-        >
-          Website
-        </Button>
+        {website && (
+          <Button
+            size="small"
+            color="primary"
+            onClick={() => window.open(website, "_blank")}
+            sx={{ textTransform: "none" }}
+          >
+            Website
+          </Button>
+        )}
         <Button
           size="small"
           color="primary"

@@ -71,4 +71,35 @@ export const portfolioItem = [
     website: "http://ec2-3-25-201-182.ap-southeast-2.compute.amazonaws.com",
     sourceCode: "https://github.com/ethangeau/melfoodie",
   },
+  {
+    id: 3,
+    title: "Cloud Computing Project",
+    imageUrl: require("../static/images/cloud.png"),
+    techStacks: ["Melbourne Research Cloud", "Ansible", "Docker", "CI/CD"],
+    description:
+      "This repo showcases a comprehensive full-stack web application that leverages both Twitter and AURIN data to decipher Melbourne's livability index. I have orchestrated the complete deployment and DevOps lifecycle of the project.",
+    website: "",
+    sourceCode:
+      "https://github.com/ethangeau/Cluster_and_Cloud_Computing_Project",
+  },
+  {
+    id: 4,
+    title: "Hackathon Project",
+    imageUrl: require("../static/images/hackathon.png"),
+    techStacks: ["Python", "Pandas"],
+    description:
+      "Boost your language exam preparation with our IELTS Frequency Words Study Engine. Designed for IELTS aspirants, this PC-based tool optimizes your vocabulary learning. Study for just 15 minutes at a time, focusing on unmastered words for efficient memorization. ",
+    website: "",
+    sourceCode: "https://github.com/ethangeau/summerhack",
+  },
+  {
+    id: 5,
+    title: "Java Project",
+    imageUrl: require("../static/images/java.png"),
+    techStacks: ["Java", "OOP"],
+    description:
+      "This repo houses two distinctive Java projects: an adapted revival of the 80's RPG 'Rogue', and the 'Ethical Engine', a decision-making simulator based on the Trolley Dilemma, confronting users with moral choices.",
+    website: "",
+    sourceCode: "https://github.com/ethangeau/java-projects",
+  },
 ];
