@@ -11,10 +11,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="mx-10 md:mx-20 lg:mx-40 xl:mx-60 2xl:mx-80">
-      <div style={{ minHeight: "101vh" }}>
-        <NavBar />
-        <About />
-      </div>
+      <NavBar />
+      <About />
       <Portfolio />
       <Experience />
       <Skills />
